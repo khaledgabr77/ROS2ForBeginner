@@ -1,6 +1,7 @@
 #include "example_interfaces/msg/string.hpp"
 #include "rclcpp/rclcpp.hpp"
 #include <iostream>
+
 class RobotNewsStation : public rclcpp::Node {
 
 public:

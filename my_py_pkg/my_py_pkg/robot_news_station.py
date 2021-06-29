@@ -13,7 +13,6 @@ class news_robot(Node):
         self.get_logger().info("Robot news Station has been started")
 
 
-
     def publish_news(self):
         msg = String()
         msg.data = "Hello"
